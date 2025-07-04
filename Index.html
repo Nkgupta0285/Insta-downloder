@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Video Downloader - Download from YouTube, Instagram, TikTok, Facebook</title>
+    <meta name="description" content="Free online tool to download videos from YouTube, Instagram, TikTok, Facebook and Snapchat in HD quality. No registration required.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Ad -->
+    <div class="header-ad">
+        <!-- Replace with your actual ad code -->
+        <img src="https://via.placeholder.com/970x90?text=Header+Ad+Space" alt="Advertisement">
+    </div>
+    
+    <header>
+        <div class="header-content">
+            <h1>Universal Video Downloader</h1>
+            <p class="subtitle">Download videos from YouTube, Instagram, TikTok, Facebook & Snapchat in HD quality - Fast, Free & Easy!</p>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="platform-tabs">
+                <div class="platform-tab youtube active" data-platform="youtube">YouTube</div>
+                <div class="platform-tab instagram" data-platform="instagram">Instagram</div>
+                <div class="platform-tab tiktok" data-platform="tiktok">TikTok</div>
+                <div class="platform-tab facebook" data-platform="facebook">Facebook</div>
+                <div class="platform-tab snapchat" data-platform="snapchat">Snapchat</div>
+            </div>
+            
+            <div class="download-box">
+                <div class="input-group">
+                    <label for="video-url" id="url-label">YouTube Video URL:</label>
+                    <span class="platform-icon" id="current-platform-icon">▶️</span>
+                    <input type="url" id="video-url" placeholder="https://youtube.com/watch?v=..." required>
+                </div>
+                <button class="btn" id="download-button">
+                    <span id="btn-text">Download</span>
+                    <span class="spinner" id="btn-loader"></span>
+                </button>
+                
+                <div class="error-message" id="error-message"></div>
+                
+                <div class="video-preview" id="video-preview">
+                    <img id="thumbnail" src="" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h4 id="video-title"></h4>
+                        <p id="video-duration"></p>
+                    </div>
+                </div>
+                
+                <div class="result" id="result">
+                    <h3>Download Options</h3>
+                    <div class="download-options" id="download-options">
+                        <!-- Options will be added here dynamically -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-section">
+                <h2>How to Download Videos</h2>
+                <p>Download videos from any social media platform in just 3 simple steps:</p>
+                
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Copy Video Link</h3>
+                        <p>Go to YouTube, Instagram, TikTok or other supported platform and copy the video URL</p>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Paste Link Here</h3>
+                        <p>Paste the copied link in the input field above and click Download</p>
+                    </div>
+                    
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Download Video</h3>
+                        <p>Choose your preferred quality and download the video to your device</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="why-us">
+                <h2>Why Use Our Video Downloader?</h2>
+                <ul>
+                    <li>100% Free - No hidden charges or subscriptions</li>
+                    <li>No Registration Required - Download instantly</li>
+                    <li>High Quality - Get videos in HD 1080p, 720p and more</li>
+                    <li>Fast Downloads - No waiting time or speed limits</li>
+                    <li>All Platforms - Supports YouTube, Instagram, TikTok, Facebook</li>
+                    <li>Safe & Secure - No malware or viruses</li>
+                    <li>Works on All Devices - Mobile, Tablet and Desktop</li>
+                    <li>No Watermarks - Download original quality videos</li>
+                </ul>
+            </div>
+            
+            <!-- Footer Ad -->
+            <div class="footer-ad">
+                <!-- Replace with your actual ad code -->
+                <img src="https://via.placeholder.com/970x90?text=Footer+Ad+Space" alt="Advertisement">
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">YouTube Downloader</a></li>
+                    <li><a href="#">Instagram Downloader</a></li>
+                    <li><a href="#">TikTok Downloader</a></li>
+                    <li><a href="#">Facebook Downloader</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Information</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">DMCA</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            &copy; 2023 Universal Video Downloader. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
